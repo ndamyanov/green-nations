@@ -5,7 +5,7 @@ export let initialMenuItems: Array<MenuItem> = [
     {
         text: 'Dashboard',
         icon: 'glyphicon-dashboard',
-        route: '/dashboard',
+        route: '/authenticated/dashboard',
         submenu: null
     },
     {
@@ -21,19 +21,19 @@ export let initialMenuItems: Array<MenuItem> = [
                     {
                         text: 'USA',
                         icon: 'glyphicon-flag',
-                        route: 'country-detail/USA',
+                        route: '/authenticated/country-detail/USA',
                         submenu: null
                     },
                     {
                         text:'Germany',
                         icon:'glyphicon-flag',
-                        route: 'country-detail/Germany',
+                        route: '/authenticated/country-detail/Germany',
                         submenu:null
                     },
                     {
                         text:'Switzerland',
                         icon:'glyphicon-flag',
-                        route: 'country-detail/Switzerland',
+                        route: '/authenticated/country-detail/Switzerland',
                         submenu:null
                     }
                 ]
